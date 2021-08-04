@@ -37,7 +37,7 @@ file = -1;
 //Settings//
 
 //Refresh screen.
-refreshKey = vk_space;
+refreshKey = vk_multiply;
 refreshDelay = 0;
 
 //Banner movement.

@@ -1,31 +1,32 @@
 /// @description Check Line
 
 //Check for empty or redundant spaces.
-if dataCheck = "" || string_char_at(dataCheck,1) = "[" || string_char_at(dataCheck,1) = "~" || string_char_at(dataCheck,1) = "-" exit;
+if dataCheck = "" || string_char_at(dataCheck,1) = "[" || string_char_at(dataCheck,1) = "~" || string_char_at(dataCheck,1) = "/" exit;
 
 //Define keywords.
 var keyword, keywordMax = 15, c;
-keyword[00] = "Window Width:";
-keyword[01] = "Window Height:";
-keyword[02] = "Stay on Top:";
-keyword[03] = "Movement Speed:";
+keyword[00] = "Display Wdt:";
+keyword[01] = "Display Hgt:";
+keyword[02] = "Display Top:";
+keyword[03] = "Display Spd:";
 keyword[04] = "Banner Folder:";
 keyword[05] = "Theme Folder:";
 keyword[06] = "Refresh Button:";
 keyword[07] = "Refresh Delay:";
-keyword[08] = "Default Text:";
-keyword[09] = "Refresh Text:";
-keyword[10] = "Background Color:";
-keyword[11] = "Refresh Color:";
-keyword[12] = "Font Color:";
-keyword[13] = "Font Size:";
-keyword[14] = "Font Bold:";
-keyword[15] = "Font Italic:";
+keyword[08] = "Text Mty:";
+keyword[09] = "Text Ref:";
+keyword[10] = "Color Bck:";
+keyword[11] = "Color Ref:";
+keyword[12] = "Font Clr:";
+keyword[13] = "Font Siz:";
+keyword[14] = "Font Bld:";
+keyword[15] = "Font Itl:";
 //REMEMBER TO INCREASE KEYWORD MAX BASED ON KEYWORD AMOUNT.
 //HAD A PRETTY BAD EXPERIENCE WITH THIS.
 
 //Check if current line matches any of them.
 for (c=0;c<=keywordMax;c++) if dataCheck = keyword[c] break;
+if c = keywordMax+1 c = -1;
 
 //If a keyword was found...
 if c != -1 {

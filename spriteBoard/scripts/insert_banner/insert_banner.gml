@@ -1,6 +1,6 @@
 /// @function insert_banner(directory);
 /// @description Stores banner into an array.
-/// @param {real} directory The file path where the image is located at.
+/// @param {string} directory	The file path where the image is located at.
 function insert_banner(argument0) {
 
 	//Get filename.

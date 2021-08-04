@@ -35,7 +35,7 @@ file_find_close();
 //Theme Update//
 
 //Get file info.
-file = file_text_open_read(working_directory+"banner\settings.txt");
+file = file_text_open_read(working_directory+"settings.txt");
 //If file exists...
 if file != -1 {
 	//... loop through every line in the file...

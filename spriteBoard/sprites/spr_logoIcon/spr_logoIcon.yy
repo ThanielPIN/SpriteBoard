@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5aa23bbc-ef3e-4fde-93f5-6ddcb4e67fab","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Startup Assets",
     "path": "folders/Resources/Startup Assets.yy",

@@ -1,0 +1,31 @@
+[Display Settings]
+Display Wdt:
+~960
+Display Hgt:
+~90
+Display Spd:
+~0.25
+Display Top:
+~0
+
+[Text Settings]
+Text Mty:
+~No banners found.
+Text Ref:
+~Refreshing...
+
+[Font Settings]
+Font Clr:
+~FFFFFF
+Font Siz:
+~18
+Font Bld:
+~0
+Font Itl:
+~0
+
+[Color Settings]
+Color Bck:
+~000000
+Color Ref:
+~000000
