@@ -59,7 +59,7 @@ colorFont = c_white;
 
 //Font.
 font = fnt_arial;
-fontSize = 12;
+fontSize = 18;
 fontBold = false;
 fontItalic = false;
 
